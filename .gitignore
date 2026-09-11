@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+*.log
+.env
+
+# Terraform — state can contain resource details/IPs; the local plugin cache
+# is large and machine-specific. Neither should be committed.
+# (.terraform.lock.hcl IS committed deliberately — it pins exact provider
+# versions/checksums, same reproducibility principle as pinning litellm==1.100.1.)
+cloud/.terraform/
+cloud/*.tfstate
+cloud/*.tfstate.*
+cloud/terraform.tfvars

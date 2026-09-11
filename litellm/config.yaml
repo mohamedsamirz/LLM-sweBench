@@ -1,0 +1,47 @@
+model_list:
+  - model_name: local-qwen3
+    litellm_params:
+      # ollama_chat (not plain "ollama") maps to Ollama's /api/chat endpoint,
+      # which is the one that carries tool-calling support — required for
+      # Claude Code's tool_use/tool_result loop to have any chance of working.
+      # qwen2.5-coder:7b was tried first and rejected here: it never actually
+      # emits its own <tool_call> tag format despite advertising tool support
+      # (confirmed reproducible bug, see DECISIONS.md §4.5). qwen3:8b was
+      # confirmed working next, then swapped for qwen3:4b (same family/
+      # template, confirmed tool_calls still populate correctly) to cut CPU
+      # inference time given a tight deadline — see DECISIONS.md §4.7.
+      model: ollama_chat/qwen3:4b
+      # host.docker.internal, not localhost: litellm now runs inside a
+      # container, while Ollama runs natively on the WSL host — these are
+      # different network namespaces. See docker-compose.yml extra_hosts.
+      api_base: http://host.docker.internal:11434
+      # Ollama silently defaults num_ctx to 4096 regardless of a model's real
+      # supported window (qwen3:8b supports 40960 per `ollama show`). Claude
+      # Code's system prompt + tool schemas alone likely exceeds 4096 tokens,
+      # which caused a confirmed failure: the agent ignored an explicit file
+      # -creation instruction and returned a confused, generic response
+      # instead (see DECISIONS.md §4.6). This must be set explicitly.
+      extra_body:
+        options:
+          num_ctx: 8192
+
+  # Catch-all: Claude Code has separate opus/sonnet/haiku model tiers
+  # (ANTHROPIC_DEFAULT_OPUS_MODEL / _SONNET_MODEL / _HAIKU_MODEL) and may use
+  # a hardcoded default name for a tier we haven't explicitly set via env var
+  # (e.g. a lightweight background call). Rather than guess and hardcode
+  # today's exact default model-name strings (they change across Claude Code
+  # versions), this wildcard routes ANY unmatched request name to the same
+  # local model, so nothing 404s regardless of what name Claude Code sends.
+  - model_name: "*"
+    litellm_params:
+      model: ollama_chat/qwen3:4b
+      api_base: http://host.docker.internal:11434
+      extra_body:
+        options:
+          num_ctx: 8192
+
+litellm_settings:
+  drop_params: true # silently drop Anthropic-specific params Ollama's chat API doesn't understand
+
+general_settings:
+  master_key: sk-litellm-static-key # must match ANTHROPIC_AUTH_TOKEN in scripts/use-local-llm.sh
