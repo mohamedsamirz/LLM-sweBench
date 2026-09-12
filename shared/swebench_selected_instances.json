@@ -1,0 +1,16 @@
+{
+  "selection_method": "10 smallest gold-patch instances (by character length) from SWE-bench_Verified's 500 instances, used as a proxy for issue scope/complexity given CPU-only inference throughput (~14 tokens/sec measured on c2d-standard-8). See DECISIONS.md for full rationale and the exercise's explicit 'not all need to resolve' allowance.",
+  "selected_at": "2026-09-11",
+  "instances": [
+    "sympy__sympy-22914",
+    "sympy__sympy-23950",
+    "scikit-learn__scikit-learn-14141",
+    "django__django-16082",
+    "django__django-13406",
+    "django__django-16429",
+    "sympy__sympy-13757",
+    "sympy__sympy-23534",
+    "sympy__sympy-19040",
+    "django__django-14534"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "elapsed_seconds": 415.3,
+  "timed_out": false,
+  "tool_call_counts": {
+    "Glob": 2,
+    "Read": 3
+  },
+  "total_tool_calls": 5,
+  "searched_before_editing": true,
+  "thinking_chars": 10543,
+  "patch_chars": 0,
+  "files_touched": 0,
+  "new_files_created": 0
+}

@@ -7,10 +7,13 @@ model_list:
       # qwen2.5-coder:7b was tried first and rejected here: it never actually
       # emits its own <tool_call> tag format despite advertising tool support
       # (confirmed reproducible bug, see DECISIONS.md §4.5). qwen3:8b was
-      # confirmed working next, then swapped for qwen3:4b (same family/
-      # template, confirmed tool_calls still populate correctly) to cut CPU
-      # inference time given a tight deadline — see DECISIONS.md §4.7.
-      model: ollama_chat/qwen3:4b
+      # confirmed working next, then swapped for qwen3:4b to cut CPU inference
+      # time (§4.7) — but the first real SWE-bench trial on qwen3:4b showed a
+      # capability failure (hallucinated an unrelated scenario, invalid tool
+      # calls, zero real progress — §4.10), not just slowness. Swapped back to
+      # qwen3:8b to test whether a larger model resists that drift, accepting
+      # the CPU-time cost.
+      model: ollama_chat/qwen3:8b
       # host.docker.internal, not localhost: litellm now runs inside a
       # container, while Ollama runs natively on the WSL host — these are
       # different network namespaces. See docker-compose.yml extra_hosts.
@@ -21,9 +24,16 @@ model_list:
       # which caused a confirmed failure: the agent ignored an explicit file
       # -creation instruction and returned a confused, generic response
       # instead (see DECISIONS.md §4.6). This must be set explicitly.
+      # Raised 8192 -> 32768 on the cloud VM (§4.10/§4.11): a real SWE-bench
+      # instance reading one real source file overflowed 8192, truncating the
+      # original task instructions out of context ("lost the plot" failure,
+      # distinct from the tool-schema hallucination). 32768 fits comfortably
+      # in this VM's 21GB free RAM — unlike the laptop, where the same
+      # increase caused an OOM (that was host-level memory starvation, §4.7,
+      # not a property of num_ctx itself).
       extra_body:
         options:
-          num_ctx: 8192
+          num_ctx: 32768
 
   # Catch-all: Claude Code has separate opus/sonnet/haiku model tiers
   # (ANTHROPIC_DEFAULT_OPUS_MODEL / _SONNET_MODEL / _HAIKU_MODEL) and may use
@@ -34,11 +44,11 @@ model_list:
   # local model, so nothing 404s regardless of what name Claude Code sends.
   - model_name: "*"
     litellm_params:
-      model: ollama_chat/qwen3:4b
+      model: ollama_chat/qwen3:8b
       api_base: http://host.docker.internal:11434
       extra_body:
         options:
-          num_ctx: 8192
+          num_ctx: 32768
 
 litellm_settings:
   drop_params: true # silently drop Anthropic-specific params Ollama's chat API doesn't understand

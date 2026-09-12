@@ -1,0 +1,141 @@
+{
+  "selection_method": "Round 1 (10 instances): smallest gold-patch instances (by character length) from SWE-bench_Verified's 500 instances, used as a proxy for issue scope/complexity. This is the same list as ../shared/swebench_selected_instances.json, shared with the local/GCP setups for comparability. Round 2 (5 instances): the next 5 smallest gold-patch instances, excluding round 1, run only on this Colab lane after round 1 produced 5 empty patches (2 genuine 900s timeouts, 3 hallucinations) - with a longer per-instance timeout to see whether more time changes the outcome on fresh instances. This file is the combined, post-run manifest for both rounds: instance selection plus what actually happened when generated on Colab/T4 with qwen3:8b and evaluated against the real SWE-bench Docker harness. See ../DECISIONS.md for full rationale; not every instance is expected to resolve.",
+  "selected_at": "2026-09-12",
+  "predictions_file": "predictions.jsonl",
+  "logs_dir": "logs/",
+  "summary": {
+    "total_instances": 15,
+    "resolved": 5,
+    "unresolved": 4,
+    "timeout": 3,
+    "hallucination": 3
+  },
+  "instances": [
+    {
+      "instance_id": "sympy__sympy-22914",
+      "round": 1,
+      "timeout_seconds": 900,
+      "model_name_or_path": "colab-qwen3-8b",
+      "patch_chars": 21283,
+      "outcome": "unresolved"
+    },
+    {
+      "instance_id": "sympy__sympy-23950",
+      "round": 1,
+      "timeout_seconds": 900,
+      "model_name_or_path": "colab-qwen3-8b",
+      "patch_chars": 329,
+      "outcome": "resolved"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-14141",
+      "round": 1,
+      "timeout_seconds": 900,
+      "model_name_or_path": "colab-qwen3-8b",
+      "patch_chars": 0,
+      "outcome": "timeout",
+      "note": "genuine 900s timeout"
+    },
+    {
+      "instance_id": "django__django-16082",
+      "round": 1,
+      "timeout_seconds": 900,
+      "model_name_or_path": "colab-qwen3-8b",
+      "patch_chars": 719,
+      "outcome": "unresolved"
+    },
+    {
+      "instance_id": "django__django-13406",
+      "round": 1,
+      "timeout_seconds": 900,
+      "model_name_or_path": "colab-qwen3-8b",
+      "patch_chars": 0,
+      "outcome": "hallucination",
+      "note": "model hallucinated a fake tool-call transcript instead of editing"
+    },
+    {
+      "instance_id": "django__django-16429",
+      "round": 1,
+      "timeout_seconds": 900,
+      "model_name_or_path": "colab-qwen3-8b",
+      "patch_chars": 395,
+      "outcome": "resolved"
+    },
+    {
+      "instance_id": "sympy__sympy-13757",
+      "round": 1,
+      "timeout_seconds": 900,
+      "model_name_or_path": "colab-qwen3-8b",
+      "patch_chars": 0,
+      "outcome": "hallucination",
+      "note": "model produced generic chat filler instead of a fix"
+    },
+    {
+      "instance_id": "sympy__sympy-23534",
+      "round": 1,
+      "timeout_seconds": 900,
+      "model_name_or_path": "colab-qwen3-8b",
+      "patch_chars": 0,
+      "outcome": "timeout",
+      "note": "genuine 900s timeout"
+    },
+    {
+      "instance_id": "sympy__sympy-19040",
+      "round": 1,
+      "timeout_seconds": 900,
+      "model_name_or_path": "colab-qwen3-8b",
+      "patch_chars": 0,
+      "outcome": "hallucination",
+      "note": "model proposed a correct-looking fix in prose but never called Edit"
+    },
+    {
+      "instance_id": "django__django-14534",
+      "round": 1,
+      "timeout_seconds": 900,
+      "model_name_or_path": "colab-qwen3-8b",
+      "patch_chars": 1116,
+      "outcome": "unresolved"
+    },
+    {
+      "instance_id": "psf__requests-1921",
+      "round": 2,
+      "timeout_seconds": 1000,
+      "model_name_or_path": "colab-qwen3-8b-batch2",
+      "patch_chars": 627,
+      "outcome": "unresolved"
+    },
+    {
+      "instance_id": "pallets__flask-5014",
+      "round": 2,
+      "timeout_seconds": 1000,
+      "model_name_or_path": "colab-qwen3-8b-batch2",
+      "patch_chars": 492,
+      "outcome": "resolved"
+    },
+    {
+      "instance_id": "django__django-14089",
+      "round": 2,
+      "timeout_seconds": 1000,
+      "model_name_or_path": "colab-qwen3-8b-batch2",
+      "patch_chars": 433,
+      "outcome": "resolved"
+    },
+    {
+      "instance_id": "sympy__sympy-15875",
+      "round": 2,
+      "timeout_seconds": 1000,
+      "model_name_or_path": "colab-qwen3-8b-batch2",
+      "patch_chars": 0,
+      "outcome": "timeout",
+      "note": "genuine 1000s timeout"
+    },
+    {
+      "instance_id": "django__django-16333",
+      "round": 2,
+      "timeout_seconds": 1000,
+      "model_name_or_path": "colab-qwen3-8b-batch2",
+      "patch_chars": 394,
+      "outcome": "resolved"
+    }
+  ]
+}

@@ -6,7 +6,7 @@ services:
     ports:
       - "4000:4000"
     volumes:
-      - ./litellm/config.yaml:/app/config.yaml:ro
+      - ./lane-1-local-setup/litellm/config.yaml:/app/config.yaml:ro
     command: ["--config", "/app/config.yaml", "--port", "4000"]
     extra_hosts:
       # Lets the container reach Ollama running natively on the WSL host.

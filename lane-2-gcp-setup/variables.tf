@@ -26,6 +26,12 @@ variable "gpu_type" {
   default     = "nvidia-tesla-t4"
 }
 
+variable "enable_gpu" {
+  description = "Whether to attach a GPU. Default false until the GCP GPU quota increase (requested, pending approval — see DECISIONS.md §4.7) comes through."
+  type        = bool
+  default     = false
+}
+
 variable "disk_size_gb" {
   description = "OS + Docker images + model weights"
   type        = number

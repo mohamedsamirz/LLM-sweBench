@@ -1,0 +1,36 @@
+# Colab variant of litellm/config.yaml. Two differences from the WSL/GCP
+# version, both because Colab runs everything natively in one process
+# namespace (no Docker available in Colab's sandbox - see colab/README.md):
+#
+#   1. api_base is http://localhost:11434, not http://host.docker.internal:
+#      11434 - litellm and Ollama are both native processes here, not split
+#      across a container boundary.
+#   2. Model is qwen3:8b (not qwen3:4b) and num_ctx is raised to 32768: the
+#      qwen3:4b / num_ctx:8192 choices in the WSL/GCP config were compute-
+#      driven compromises for CPU-only inference (see DECISIONS.md §4.6/4.7).
+#      Colab's free T4 GPU (16GB VRAM) removes that constraint - measured
+#      footprint for qwen3:8b at num_ctx:32768 was ~10GB (§4.6), comfortably
+#      under 16GB.
+
+model_list:
+  - model_name: local-qwen3
+    litellm_params:
+      model: ollama_chat/qwen3:8b
+      api_base: http://localhost:11434
+      extra_body:
+        options:
+          num_ctx: 32768
+
+  - model_name: "*"
+    litellm_params:
+      model: ollama_chat/qwen3:8b
+      api_base: http://localhost:11434
+      extra_body:
+        options:
+          num_ctx: 32768
+
+litellm_settings:
+  drop_params: true
+
+general_settings:
+  master_key: sk-litellm-static-key # must match ANTHROPIC_AUTH_TOKEN

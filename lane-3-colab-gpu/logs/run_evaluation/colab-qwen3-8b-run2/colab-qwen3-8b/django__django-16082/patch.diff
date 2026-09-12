@@ -1,0 +1,17 @@
+diff --git a/django/db/models/functions/math.py b/django/db/models/functions/math.py
+index 8b5fd79c3a..4c791de783 100644
+--- a/django/db/models/functions/math.py
++++ b/django/db/models/functions/math.py
+@@ -122,6 +122,12 @@ class Log(FixDecimalInputMixin, NumericOutputFieldMixin, Func):
+ 
+ 
+ class Mod(FixDecimalInputMixin, NumericOutputFieldMixin, Func):
++    def _resolve_output_field(self):
++        # Ensure output is Decimal when operands are of different types
++        source = self.get_source_expressions()
++        if any(isinstance(expr.output_field, DecimalField) for expr in source):
++            return DecimalField()
++        return super()._resolve_output_field()
+     function = "MOD"
+     arity = 2
+ 
