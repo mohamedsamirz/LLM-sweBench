@@ -1,0 +1,7 @@
+project_id = "your-gcp-project-id"
+
+# Verify GPU quota + zone stock for your own project before assuming these
+# defaults work — see the parent README for how to check both.
+# zone         = "europe-west4-a"
+# gpu_type     = "nvidia-tesla-v100"
+# enable_gpu   = true

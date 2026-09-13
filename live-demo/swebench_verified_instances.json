@@ -1,0 +1,3002 @@
+[
+ {
+  "instance_id": "astropy__astropy-12907",
+  "repo": "astropy/astropy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Modeling's `separability_matrix` does not compute separability correctly for nested CompoundModels"
+ },
+ {
+  "instance_id": "astropy__astropy-13033",
+  "repo": "astropy/astropy",
+  "difficulty": "15 min - 1 hour",
+  "title": "TimeSeries: misleading exception when required column check fails."
+ },
+ {
+  "instance_id": "astropy__astropy-13236",
+  "repo": "astropy/astropy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Consider removing auto-transform of structured column into NdarrayMixin"
+ },
+ {
+  "instance_id": "astropy__astropy-13398",
+  "repo": "astropy/astropy",
+  "difficulty": "1-4 hours",
+  "title": "A direct approach to ITRS to Observed transformations that stays within the ITRS."
+ },
+ {
+  "instance_id": "astropy__astropy-13453",
+  "repo": "astropy/astropy",
+  "difficulty": "15 min - 1 hour",
+  "title": "ASCII table output to HTML does not support supplied \"formats\""
+ },
+ {
+  "instance_id": "astropy__astropy-13579",
+  "repo": "astropy/astropy",
+  "difficulty": "1-4 hours",
+  "title": "Inconsistent behavior of `world_to_pixel` in `SlicedLowLevelWCS`"
+ },
+ {
+  "instance_id": "astropy__astropy-13977",
+  "repo": "astropy/astropy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Should `Quantity.__array_ufunc__()` return `NotImplemented` instead of raising `ValueError` if the inputs are incompatib"
+ },
+ {
+  "instance_id": "astropy__astropy-14096",
+  "repo": "astropy/astropy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Subclassed SkyCoord gives misleading attribute access message"
+ },
+ {
+  "instance_id": "astropy__astropy-14182",
+  "repo": "astropy/astropy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Please support header rows in RestructuredText output"
+ },
+ {
+  "instance_id": "astropy__astropy-14309",
+  "repo": "astropy/astropy",
+  "difficulty": "<15 min fix",
+  "title": "IndexError: tuple index out of range in identify_format (io.registry)"
+ },
+ {
+  "instance_id": "astropy__astropy-14365",
+  "repo": "astropy/astropy",
+  "difficulty": "15 min - 1 hour",
+  "title": "ascii.qdp Table format assumes QDP commands are upper case"
+ },
+ {
+  "instance_id": "astropy__astropy-14369",
+  "repo": "astropy/astropy",
+  "difficulty": "1-4 hours",
+  "title": "Incorrect units read from MRT (CDS format) files with astropy.table"
+ },
+ {
+  "instance_id": "astropy__astropy-14508",
+  "repo": "astropy/astropy",
+  "difficulty": "15 min - 1 hour",
+  "title": "`io.fits.Card` may use a string representation of floats that is larger than necessary"
+ },
+ {
+  "instance_id": "astropy__astropy-14539",
+  "repo": "astropy/astropy",
+  "difficulty": "15 min - 1 hour",
+  "title": "`io.fits.FITSDiff` may sometimes report differences between identical files"
+ },
+ {
+  "instance_id": "astropy__astropy-14598",
+  "repo": "astropy/astropy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Inconsistency in double single-quote ('') management in FITS Card"
+ },
+ {
+  "instance_id": "astropy__astropy-14995",
+  "repo": "astropy/astropy",
+  "difficulty": "<15 min fix",
+  "title": "In v5.3, NDDataRef mask propagation fails when one of the operand does not have a mask"
+ },
+ {
+  "instance_id": "astropy__astropy-7166",
+  "repo": "astropy/astropy",
+  "difficulty": "<15 min fix",
+  "title": "InheritDocstrings metaclass doesn't work for properties"
+ },
+ {
+  "instance_id": "astropy__astropy-7336",
+  "repo": "astropy/astropy",
+  "difficulty": "<15 min fix",
+  "title": "units.quantity_input decorator fails for constructors with type hinted return value -> None"
+ },
+ {
+  "instance_id": "astropy__astropy-7606",
+  "repo": "astropy/astropy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Unit equality comparison with None raises TypeError for UnrecognizedUnit"
+ },
+ {
+  "instance_id": "astropy__astropy-7671",
+  "repo": "astropy/astropy",
+  "difficulty": "15 min - 1 hour",
+  "title": "minversion failures"
+ },
+ {
+  "instance_id": "astropy__astropy-8707",
+  "repo": "astropy/astropy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Header.fromstring does not accept Python 3 bytes"
+ },
+ {
+  "instance_id": "astropy__astropy-8872",
+  "repo": "astropy/astropy",
+  "difficulty": "15 min - 1 hour",
+  "title": "float16 quantities get upgraded to float64 automatically"
+ },
+ {
+  "instance_id": "django__django-10097",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Make URLValidator reject invalid characters in the username and password"
+ },
+ {
+  "instance_id": "django__django-10554",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "Union queryset with ordering breaks on ordering with derived querysets"
+ },
+ {
+  "instance_id": "django__django-10880",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Query syntax error with condition and distinct combination"
+ },
+ {
+  "instance_id": "django__django-10914",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Set default FILE_UPLOAD_PERMISSION to 0o644."
+ },
+ {
+  "instance_id": "django__django-10973",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Use subprocess.run and PGPASSWORD for client in postgres backend"
+ },
+ {
+  "instance_id": "django__django-10999",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Fix parse_duration() for some negative durations"
+ },
+ {
+  "instance_id": "django__django-11066",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "RenameContentType._rename() doesn't save the content type on the correct database"
+ },
+ {
+  "instance_id": "django__django-11087",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Optimize .delete() to use only required fields."
+ },
+ {
+  "instance_id": "django__django-11095",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "add ModelAdmin.get_inlines() hook to allow set inlines based on the request or model instance."
+ },
+ {
+  "instance_id": "django__django-11099",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "UsernameValidator allows trailing newline in usernames"
+ },
+ {
+  "instance_id": "django__django-11119",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Engine.render_to_string() should honor the autoescape attribute"
+ },
+ {
+  "instance_id": "django__django-11133",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "HttpResponse doesn't handle memoryview objects"
+ },
+ {
+  "instance_id": "django__django-11138",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "TIME_ZONE value in DATABASES settings is not used when making dates timezone-aware on MySQL, SQLite, and Oracle."
+ },
+ {
+  "instance_id": "django__django-11141",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Allow migrations directories without __init__.py files"
+ },
+ {
+  "instance_id": "django__django-11149",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Admin inlines for auto-created ManyToManyFields are editable if the user only has the view permission"
+ },
+ {
+  "instance_id": "django__django-11163",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "model_to_dict() should return an empty dict for an empty list of fields."
+ },
+ {
+  "instance_id": "django__django-11179",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "delete() on instances of models without any dependencies doesn't clear PKs."
+ },
+ {
+  "instance_id": "django__django-11206",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "utils.numberformat.format renders small decimals in exponential notation."
+ },
+ {
+  "instance_id": "django__django-11211",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Prefetch related is not working when used GFK for model that uses UUID field as PK."
+ },
+ {
+  "instance_id": "django__django-11239",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Add support for postgresql client certificates and key to dbshell."
+ },
+ {
+  "instance_id": "django__django-11265",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Using exclude on annotated FilteredRelation doesn't work"
+ },
+ {
+  "instance_id": "django__django-11276",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Use Python stdlib html.escape() to in django.utils.html.escape()"
+ },
+ {
+  "instance_id": "django__django-11292",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Add --skip-checks option to management commands."
+ },
+ {
+  "instance_id": "django__django-11299",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "CheckConstraint with OR operator generates incorrect SQL on SQLite and Oracle."
+ },
+ {
+  "instance_id": "django__django-11333",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Optimization: Multiple URLResolvers may be unintentionally be constructed by calls to `django.urls.resolvers.get_resolve"
+ },
+ {
+  "instance_id": "django__django-11400",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "Ordering problem in admin.RelatedFieldListFilter and admin.RelatedOnlyFieldListFilter"
+ },
+ {
+  "instance_id": "django__django-11433",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Allow `cleaned_data` to overwrite fields' default values."
+ },
+ {
+  "instance_id": "django__django-11451",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "ModelBackend.authenticate() shouldn't make a database query when username is None"
+ },
+ {
+  "instance_id": "django__django-11477",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "translate_url() creates an incorrect URL when optional named groups are missing in the URL pattern"
+ },
+ {
+  "instance_id": "django__django-11490",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Composed queries cannot change the list of columns with values()/values_list()."
+ },
+ {
+  "instance_id": "django__django-11532",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Email messages crash on non-ASCII domain when email encoding is non-unicode."
+ },
+ {
+  "instance_id": "django__django-11551",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "admin.E108 is raised on fields accessible only via instance."
+ },
+ {
+  "instance_id": "django__django-11555",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "order_by() a parent model crash when Meta.ordering contains expressions."
+ },
+ {
+  "instance_id": "django__django-11603",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Add DISTINCT support for Avg and Sum aggregates."
+ },
+ {
+  "instance_id": "django__django-11728",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "simplify_regexp() doesn't replace trailing groups."
+ },
+ {
+  "instance_id": "django__django-11734",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "OuterRef in exclude() or ~Q() uses wrong model."
+ },
+ {
+  "instance_id": "django__django-11740",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Change uuid field to FK does not create dependency"
+ },
+ {
+  "instance_id": "django__django-11749",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "call_command fails when argument of required mutually exclusive group is passed in kwargs."
+ },
+ {
+  "instance_id": "django__django-11790",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "AuthenticationForm's username field doesn't set maxlength HTML attribute."
+ },
+ {
+  "instance_id": "django__django-11815",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Migrations uses value of enum object instead of its name."
+ },
+ {
+  "instance_id": "django__django-11820",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "models.E015 is raised when Meta.ordering contains \"pk\" of a related field."
+ },
+ {
+  "instance_id": "django__django-11848",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "django.utils.http.parse_http_date two digit year check is incorrect"
+ },
+ {
+  "instance_id": "django__django-11880",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Form Field\u2019s __deepcopy__ does not (deep)copy the error messages."
+ },
+ {
+  "instance_id": "django__django-11885",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "Combine fast delete queries"
+ },
+ {
+  "instance_id": "django__django-11951",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "bulk_create batch_size param overrides the compatible batch size calculation"
+ },
+ {
+  "instance_id": "django__django-11964",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "The value of a TextChoices/IntegerChoices field has a differing type"
+ },
+ {
+  "instance_id": "django__django-11999",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Cannot override get_FOO_display() in Django 2.2+."
+ },
+ {
+  "instance_id": "django__django-12039",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Use proper whitespace in CREATE INDEX statements"
+ },
+ {
+  "instance_id": "django__django-12050",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Query.resolve_lookup_value coerces value of type list to tuple"
+ },
+ {
+  "instance_id": "django__django-12125",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "makemigrations produces incorrect path for inner classes"
+ },
+ {
+  "instance_id": "django__django-12143",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Possible data loss in admin changeform view when using regex special characters in formset prefix"
+ },
+ {
+  "instance_id": "django__django-12155",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "docutils reports an error rendering view docstring when the first line is not empty"
+ },
+ {
+  "instance_id": "django__django-12193",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "SplitArrayField with BooleanField always has widgets checked after the first True value."
+ },
+ {
+  "instance_id": "django__django-12209",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Change in behaviour when saving a model instance with an explcit pk value if the pk field has a default"
+ },
+ {
+  "instance_id": "django__django-12262",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Custom template tags raise TemplateSyntaxError when keyword-only arguments with defaults are provided."
+ },
+ {
+  "instance_id": "django__django-12273",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Resetting primary key for a child model doesn't work."
+ },
+ {
+  "instance_id": "django__django-12276",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "FileInput shouldn't display required attribute when initial data exists."
+ },
+ {
+  "instance_id": "django__django-12304",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Enumeration Types are not usable in templates."
+ },
+ {
+  "instance_id": "django__django-12308",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "JSONField are not properly displayed in admin when they are readonly."
+ },
+ {
+  "instance_id": "django__django-12325",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "pk setup for MTI to parent get confused by multiple OneToOne references."
+ },
+ {
+  "instance_id": "django__django-12406",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "ModelForm RadioSelect widget for foreign keys should not present a blank option if blank=False on the model"
+ },
+ {
+  "instance_id": "django__django-12419",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Add secure default SECURE_REFERRER_POLICY / Referrer-policy header"
+ },
+ {
+  "instance_id": "django__django-12663",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Using SimpleLazyObject with a nested subquery annotation fails."
+ },
+ {
+  "instance_id": "django__django-12708",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "Migration crashes deleting an index_together if there is a unique_together on the same fields"
+ },
+ {
+  "instance_id": "django__django-12713",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Allow overridding widget in formfield_for_manytomany()."
+ },
+ {
+  "instance_id": "django__django-12741",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Simplify signature of `DatabaseOperations.execute_sql_flush()`"
+ },
+ {
+  "instance_id": "django__django-12754",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "FieldError when migrating field to new model subclass."
+ },
+ {
+  "instance_id": "django__django-12774",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Allow QuerySet.in_bulk() for fields with total UniqueConstraints."
+ },
+ {
+  "instance_id": "django__django-12858",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "models.E015 is raised when ordering uses lookups that are not transforms."
+ },
+ {
+  "instance_id": "django__django-12965",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Model.objects.all().delete() subquery usage performance regression"
+ },
+ {
+  "instance_id": "django__django-13012",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Constant expressions of an ExpressionWrapper object are incorrectly placed at the GROUP BY clause"
+ },
+ {
+  "instance_id": "django__django-13023",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "DecimalField.to_python() raises TypeError on dict values."
+ },
+ {
+  "instance_id": "django__django-13028",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Queryset raises NotSupportedError when RHS has filterable=False attribute."
+ },
+ {
+  "instance_id": "django__django-13033",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Self referencing foreign key doesn't correctly order by a relation \"_id\" field."
+ },
+ {
+  "instance_id": "django__django-13089",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "cache.backends.db._cull sometimes fails with 'NoneType' object is not subscriptable"
+ },
+ {
+  "instance_id": "django__django-13109",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "ForeignKey.validate() should validate using the base manager."
+ },
+ {
+  "instance_id": "django__django-13112",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "makemigrations crashes for ForeignKey with mixed-case app name."
+ },
+ {
+  "instance_id": "django__django-13121",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "durations-only expressions doesn't work on SQLite and MySQL"
+ },
+ {
+  "instance_id": "django__django-13128",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "make temporal subtraction work without ExpressionWrapper"
+ },
+ {
+  "instance_id": "django__django-13158",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "QuerySet.none() on combined queries returns all results."
+ },
+ {
+  "instance_id": "django__django-13195",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "HttpResponse.delete_cookie() should preserve cookie's samesite."
+ },
+ {
+  "instance_id": "django__django-13212",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "Make validators include the provided value in ValidationError"
+ },
+ {
+  "instance_id": "django__django-13279",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Session data cannot be decoded during the transition to Django 3.1."
+ },
+ {
+  "instance_id": "django__django-13297",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "TemplateView.get_context_data()'s kwargs returns SimpleLazyObjects that causes a crash when filtering."
+ },
+ {
+  "instance_id": "django__django-13315",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "limit_choices_to on a ForeignKey can render duplicate options in formfield"
+ },
+ {
+  "instance_id": "django__django-13343",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "FileField with a callable storage does not deconstruct properly"
+ },
+ {
+  "instance_id": "django__django-13344",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "Coroutine passed to the first middleware's process_response() instead of HttpResponse."
+ },
+ {
+  "instance_id": "django__django-13346",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "On MySQL, Oracle, and SQLite, __in lookup doesn't work on key transforms."
+ },
+ {
+  "instance_id": "django__django-13363",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Add support for tzinfo parameter to TruncDate() and TruncTime()."
+ },
+ {
+  "instance_id": "django__django-13401",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Abstract model field should not be equal across models"
+ },
+ {
+  "instance_id": "django__django-13406",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Queryset with values()/values_list() crashes when recreated from a pickled query."
+ },
+ {
+  "instance_id": "django__django-13410",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Bug in posix implementation of django/core/files/locks.py"
+ },
+ {
+  "instance_id": "django__django-13417",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "QuerySet.ordered property is incorrect for GROUP BY queries on models with Meta.ordering."
+ },
+ {
+  "instance_id": "django__django-13449",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "Lag() with DecimalField crashes on SQLite."
+ },
+ {
+  "instance_id": "django__django-13512",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Admin doesn't display properly unicode chars in JSONFields."
+ },
+ {
+  "instance_id": "django__django-13513",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "debug error view doesn't respect exc.__suppress_context__ (PEP 415)"
+ },
+ {
+  "instance_id": "django__django-13516",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "flush() on self.stdout/stderr management commands doesn't work."
+ },
+ {
+  "instance_id": "django__django-13551",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Changing user's email could invalidate password reset tokens"
+ },
+ {
+  "instance_id": "django__django-13568",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Skip auth.E003 system check for USERNAME_FIELD with total UniqueConstraints."
+ },
+ {
+  "instance_id": "django__django-13569",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "order_by('?') unexpectedly breaking queryset aggregation"
+ },
+ {
+  "instance_id": "django__django-13590",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Upgrading 2.2>3.0 causes named tuples used as arguments to __range to error."
+ },
+ {
+  "instance_id": "django__django-13658",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "ManagementUtility instantiates CommandParser without passing already-computed prog argument"
+ },
+ {
+  "instance_id": "django__django-13670",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "dateformat.y() doesn't support years < 1000."
+ },
+ {
+  "instance_id": "django__django-13741",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Set disabled prop on ReadOnlyPasswordHashField"
+ },
+ {
+  "instance_id": "django__django-13786",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "squashmigrations does not unset model options when optimizing CreateModel and AlterModelOptions"
+ },
+ {
+  "instance_id": "django__django-13794",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "add filter is unable to concatenate strings with lazy string"
+ },
+ {
+  "instance_id": "django__django-13807",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "loaddata crashes on SQLite when table names are SQL keywords."
+ },
+ {
+  "instance_id": "django__django-13809",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Add --skip-checks option to the runserver command."
+ },
+ {
+  "instance_id": "django__django-13810",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "MiddlewareNotUsed leaves undesired side effects when loading middleware in ASGI context"
+ },
+ {
+  "instance_id": "django__django-13820",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Permit migrations in non-namespace packages that don't have __file__"
+ },
+ {
+  "instance_id": "django__django-13821",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Drop support for SQLite < 3.9.0"
+ },
+ {
+  "instance_id": "django__django-13837",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "Allow autoreloading of `python -m pkg_other_than_django runserver`"
+ },
+ {
+  "instance_id": "django__django-13925",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "models.W042 is raised on inherited manually specified primary key."
+ },
+ {
+  "instance_id": "django__django-13933",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "ModelChoiceField does not provide value of invalid choice when raising ValidationError"
+ },
+ {
+  "instance_id": "django__django-13964",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Saving parent object after setting on child leads to data loss for parents with non-numeric primary key."
+ },
+ {
+  "instance_id": "django__django-14007",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "Database converters (from_db_value) not called for returning_fields on insert"
+ },
+ {
+  "instance_id": "django__django-14011",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "LiveServerTestCase's ThreadedWSGIServer doesn't close database connections after each thread"
+ },
+ {
+  "instance_id": "django__django-14017",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Q(...) & Exists(...) raises a TypeError"
+ },
+ {
+  "instance_id": "django__django-14034",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "MultiValueField ignores a required value of a sub field"
+ },
+ {
+  "instance_id": "django__django-14053",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "HashedFilesMixin's post_process() yields multiple times for the same file"
+ },
+ {
+  "instance_id": "django__django-14089",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Allow calling reversed() on an OrderedSet"
+ },
+ {
+  "instance_id": "django__django-14122",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Meta.ordering fields must not be included in GROUP BY clause"
+ },
+ {
+  "instance_id": "django__django-14140",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Combining Q() objects with boolean expressions crashes."
+ },
+ {
+  "instance_id": "django__django-14155",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "ResolverMatch.__repr__() doesn't handle functools.partial() nicely."
+ },
+ {
+  "instance_id": "django__django-14170",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Query optimization in YearLookup breaks filtering by \"__iso_year\""
+ },
+ {
+  "instance_id": "django__django-14238",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "DEFAULT_AUTO_FIELD subclass check fails for subclasses of BigAutoField and SmallAutoField."
+ },
+ {
+  "instance_id": "django__django-14311",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Allow autoreloading of `python -m custom_module runserver`"
+ },
+ {
+  "instance_id": "django__django-14315",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "database client runshell doesn't respect os.environ values in some cases"
+ },
+ {
+  "instance_id": "django__django-14349",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "URLValidator tests failing on Python versions patched for bpo-43882"
+ },
+ {
+  "instance_id": "django__django-14351",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Q object __or__ appears to get all dunder related's default columns and queryset raises ProgrammingError."
+ },
+ {
+  "instance_id": "django__django-14373",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "DateFormat.Y() is not zero-padded."
+ },
+ {
+  "instance_id": "django__django-14376",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "MySQL backend uses deprecated \"db\" and \"passwd\" kwargs."
+ },
+ {
+  "instance_id": "django__django-14404",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "catch_all_view() does not support FORCE_SCRIPT_NAME."
+ },
+ {
+  "instance_id": "django__django-14434",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Statement created by _create_unique_sql makes references_column always false"
+ },
+ {
+  "instance_id": "django__django-14493",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "ManifestStaticFilesStorage crashes with max_post_process_passes = 0."
+ },
+ {
+  "instance_id": "django__django-14500",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Squashed migration is not marked as unapplied"
+ },
+ {
+  "instance_id": "django__django-14534",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "BoundWidget.id_for_label ignores id set by ChoiceWidget.options"
+ },
+ {
+  "instance_id": "django__django-14539",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "urlize() does not handle html escaped string and trailing punctuation correctly"
+ },
+ {
+  "instance_id": "django__django-14559",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Include number of rows matched in bulk_update() return value"
+ },
+ {
+  "instance_id": "django__django-14580",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Missing import statement in generated migration (NameError: name 'models' is not defined)"
+ },
+ {
+  "instance_id": "django__django-14608",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Add `nonform` CSS class for non form errors in FormSets"
+ },
+ {
+  "instance_id": "django__django-14631",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "BaseForm's _clean_fields() and changed_data should access values via BoundField"
+ },
+ {
+  "instance_id": "django__django-14672",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Missing call `make_hashable` on `through_fields` in `ManyToManyRel`"
+ },
+ {
+  "instance_id": "django__django-14725",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Provide a way for model formsets to disallow new object creation"
+ },
+ {
+  "instance_id": "django__django-14752",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Refactor AutocompleteJsonView to support extra fields in autocomplete response"
+ },
+ {
+  "instance_id": "django__django-14765",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "ProjectState.__init__() can assume its real_apps argument is a set"
+ },
+ {
+  "instance_id": "django__django-14771",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Auto-reloader should pass -X options (for cpython implementation)"
+ },
+ {
+  "instance_id": "django__django-14787",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "method_decorator() should preserve wrapper assignments"
+ },
+ {
+  "instance_id": "django__django-14792",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Reverse time zone conversion in Trunc()/Extract() database functions."
+ },
+ {
+  "instance_id": "django__django-14855",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Wrong URL generated by get_admin_url for readonly field in custom Admin Site"
+ },
+ {
+  "instance_id": "django__django-14915",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "ModelChoiceIteratorValue is not hashable."
+ },
+ {
+  "instance_id": "django__django-14999",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "RenameModel with db_table should be a noop."
+ },
+ {
+  "instance_id": "django__django-15022",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Unnecessary joins in admin changelist query"
+ },
+ {
+  "instance_id": "django__django-15037",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Foreign key to a specific field is not handled in inspectdb"
+ },
+ {
+  "instance_id": "django__django-15098",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Internationalisation didn't support language locale containing both script and region."
+ },
+ {
+  "instance_id": "django__django-15103",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Make the element_id argument of json_script optional"
+ },
+ {
+  "instance_id": "django__django-15104",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "KeyError with migration autodetector and FK field with hardcoded reference"
+ },
+ {
+  "instance_id": "django__django-15127",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "LEVEL_TAGS not updated when using @override_settings"
+ },
+ {
+  "instance_id": "django__django-15128",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "Query.change_aliases raises an AssertionError"
+ },
+ {
+  "instance_id": "django__django-15161",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Use simplified paths for deconstruct of expressions"
+ },
+ {
+  "instance_id": "django__django-15252",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "MigrationRecorder does not obey db_router allow_migrate rules"
+ },
+ {
+  "instance_id": "django__django-15268",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "Optimize multiple AlterFooTogether operations into one"
+ },
+ {
+  "instance_id": "django__django-15277",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Micro-optimisation for Value._resolve_output_field (by modifying CharField.__init__)"
+ },
+ {
+  "instance_id": "django__django-15278",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Adding nullable OneToOneField crashes on SQLite."
+ },
+ {
+  "instance_id": "django__django-15280",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Deferred fields incorrect when following prefetches back to the \"parent\" object"
+ },
+ {
+  "instance_id": "django__django-15315",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Model Field.__hash__() should be immutable."
+ },
+ {
+  "instance_id": "django__django-15368",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "bulk_update() does not work with plain F('...') expressions."
+ },
+ {
+  "instance_id": "django__django-15375",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "aggregate() with 'default' after annotate() crashes."
+ },
+ {
+  "instance_id": "django__django-15380",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Migration autodetector crashes when renaming a model and field."
+ },
+ {
+  "instance_id": "django__django-15382",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "filter on exists-subquery with empty queryset removes whole WHERE block"
+ },
+ {
+  "instance_id": "django__django-15467",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "ModelAdmin with defined radio_fields override empty_label"
+ },
+ {
+  "instance_id": "django__django-15499",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Optimize CreateModel + AlterModelManagers to CreateModel"
+ },
+ {
+  "instance_id": "django__django-15503",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "has_key, has_keys, and has_any_keys JSONField() lookups don't handle numeric keys on SQLite, MySQL, and Oracle."
+ },
+ {
+  "instance_id": "django__django-15525",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "loaddata fails on non-default database when natural keys uses foreign keys."
+ },
+ {
+  "instance_id": "django__django-15554",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Using multiple FilteredRelation with different filters but for same relation is ignored."
+ },
+ {
+  "instance_id": "django__django-15561",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "AlterField operation should be noop when adding/changing choices on SQLite."
+ },
+ {
+  "instance_id": "django__django-15563",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Wrong behavior on queryset update when multiple inheritance"
+ },
+ {
+  "instance_id": "django__django-15569",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "RegisterLookupMixin._unregister_lookup() should clear the lookup cache."
+ },
+ {
+  "instance_id": "django__django-15572",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Django 3.2.4+ autoreload breaks on empty string in TEMPLATES DIRS."
+ },
+ {
+  "instance_id": "django__django-15629",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "Errors with db_collation \u2013 no propagation to foreignkeys"
+ },
+ {
+  "instance_id": "django__django-15695",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "RenameIndex() crashes when unnamed index is moving backward and forward."
+ },
+ {
+  "instance_id": "django__django-15731",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "inspect.signature() returns incorrect signature on manager methods."
+ },
+ {
+  "instance_id": "django__django-15732",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Cannot drop unique_together constraint on a single field with its own unique=True constraint"
+ },
+ {
+  "instance_id": "django__django-15741",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "django.utils.formats.get_format should allow lazy parameter"
+ },
+ {
+  "instance_id": "django__django-15814",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "QuerySet.only() after select_related() crash on proxy models."
+ },
+ {
+  "instance_id": "django__django-15851",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "dbshell additional parameters should be passed before dbname on PostgreSQL."
+ },
+ {
+  "instance_id": "django__django-15863",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Filter floatformat drops precision in decimal numbers"
+ },
+ {
+  "instance_id": "django__django-15916",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Allow ModelForm meta to specify formfield_callback."
+ },
+ {
+  "instance_id": "django__django-15930",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Case() crashes with ~Q(pk__in=[])."
+ },
+ {
+  "instance_id": "django__django-15957",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "Prefetch objects don't work with slices"
+ },
+ {
+  "instance_id": "django__django-15973",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Defining the \"through\" model in a many-to-many field in another app causes \"AttributeError: 'str' object has no attribut"
+ },
+ {
+  "instance_id": "django__django-15987",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Fixture dirs duplicates undetected if dir is Path instance"
+ },
+ {
+  "instance_id": "django__django-16032",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "__in doesn't clear selected fields on the RHS when QuerySet.alias() is used after annotate()."
+ },
+ {
+  "instance_id": "django__django-16082",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Resolve output_field when combining numeric expressions with MOD operator."
+ },
+ {
+  "instance_id": "django__django-16100",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Add transaction handling to Changelist list_editable processing."
+ },
+ {
+  "instance_id": "django__django-16116",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "makemigrations --check generating migrations is inconsistent with other uses of --check"
+ },
+ {
+  "instance_id": "django__django-16136",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "object HttpResponseNotAllowed can't be used in 'await' expression"
+ },
+ {
+  "instance_id": "django__django-16139",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Accessing UserAdmin via to_field leads to link to PasswordResetForm being broken (404)"
+ },
+ {
+  "instance_id": "django__django-16145",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "`runserver 0`'s \"Starting development server at <address>\" doesn't work"
+ },
+ {
+  "instance_id": "django__django-16255",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Sitemaps without items raise ValueError on callable lastmod."
+ },
+ {
+  "instance_id": "django__django-16256",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "acreate(), aget_or_create(), and aupdate_or_create() doesn't work as intended on related managers."
+ },
+ {
+  "instance_id": "django__django-16263",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "Strip unused annotations from count queries"
+ },
+ {
+  "instance_id": "django__django-16315",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "QuerySet.bulk_create() crashes on mixed case columns in unique_fields/update_fields."
+ },
+ {
+  "instance_id": "django__django-16333",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "UserCreationForm should save data from ManyToMany form fields"
+ },
+ {
+  "instance_id": "django__django-16429",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "timesince() raises TypeError with USE_TZ=True and >1 month interval."
+ },
+ {
+  "instance_id": "django__django-16454",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Management command subparsers don\u2019t retain error formatting"
+ },
+ {
+  "instance_id": "django__django-16485",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "floatformat() crashes on \"0.00\"."
+ },
+ {
+  "instance_id": "django__django-16493",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Callable storage on FileField fails to deconstruct when it returns default_storage"
+ },
+ {
+  "instance_id": "django__django-16502",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "After #26052 runserver returns response body for HTTP HEAD requests"
+ },
+ {
+  "instance_id": "django__django-16527",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "\"show_save_as_new\" in admin can add without this permission"
+ },
+ {
+  "instance_id": "django__django-16560",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "Allow to customize the code attribute of ValidationError raised by BaseConstraint.validate"
+ },
+ {
+  "instance_id": "django__django-16569",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Formsets' add_fields() method fails in some circumstances if the argument index is None."
+ },
+ {
+  "instance_id": "django__django-16595",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Migration optimizer does not reduce multiple AlterField"
+ },
+ {
+  "instance_id": "django__django-16612",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "AdminSite.catch_all_view() drops query string in redirects"
+ },
+ {
+  "instance_id": "django__django-16631",
+  "repo": "django/django",
+  "difficulty": "1-4 hours",
+  "title": "SECRET_KEY_FALLBACKS is not used for sessions"
+ },
+ {
+  "instance_id": "django__django-16642",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Improper guessing of Mime Type for \"br\" and \"Z\" file types"
+ },
+ {
+  "instance_id": "django__django-16661",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "ModelAdmin.lookup_allowed() incorrectly raises DisallowedModelAdminLookup lookup with foreign key as primary key"
+ },
+ {
+  "instance_id": "django__django-16662",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Migration import ordering violates coding style and isort defaults"
+ },
+ {
+  "instance_id": "django__django-16667",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "SelectDateWidget can crash with OverflowError."
+ },
+ {
+  "instance_id": "django__django-16801",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "ImageField unnecessarily adds a post_init signal handler to the model"
+ },
+ {
+  "instance_id": "django__django-16819",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Reduce Add/RemoveIndex migration operations."
+ },
+ {
+  "instance_id": "django__django-16877",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "New template filter `escapeseq`"
+ },
+ {
+  "instance_id": "django__django-16899",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "ModelAdmin: Error message for readonly_fields's check does not include the field name"
+ },
+ {
+  "instance_id": "django__django-16901",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "On databases lacking XOR, Q(\u2026) ^ Q(\u2026) ^ Q(\u2026) wrongly interpreted as exactly-one rather than parity"
+ },
+ {
+  "instance_id": "django__django-16938",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Serialization of m2m relation fails with custom manager using select_related"
+ },
+ {
+  "instance_id": "django__django-16950",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Django Admin with Inlines not using UUIDField default value"
+ },
+ {
+  "instance_id": "django__django-17029",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Apps.clear_cache() does not clear get_swappable_settings_name cache."
+ },
+ {
+  "instance_id": "django__django-17084",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "Cannot use aggregate over window functions since 4.2"
+ },
+ {
+  "instance_id": "django__django-17087",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Class methods from nested classes cannot be used as Field.default."
+ },
+ {
+  "instance_id": "django__django-7530",
+  "repo": "django/django",
+  "difficulty": "15 min - 1 hour",
+  "title": "makemigrations router.allow_migrate() calls for consistency checks use incorrect (app_label, model) pairs"
+ },
+ {
+  "instance_id": "django__django-9296",
+  "repo": "django/django",
+  "difficulty": "<15 min fix",
+  "title": "Paginator just implement the __iter__ function"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-13989",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "<15 min fix",
+  "title": "hist() no longer respects range=... when density=True"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-14623",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "Inverting an axis using its limits does not work for log scale"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-20488",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "test_huge_range_log is failing..."
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-20676",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "<15 min fix",
+  "title": "interactive SpanSelector incorrectly forces axes limits to include 0"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-20826",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "ax.clear() adds extra ticks, un-hides shared-axis tick labels"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-20859",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "<15 min fix",
+  "title": "Adding a legend to a `SubFigure` doesn't work"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-21568",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "[Bug]: Datetime axis with usetex is unclear"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-22719",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "<15 min fix",
+  "title": "[Bug]: Confusing deprecation warning when empty data passed to axis with category units"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-22865",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "[Bug]: Colorbar with drawedges=True and extend='both' does not draw edges at extremities"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-22871",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "[Bug]: ConciseDateFormatter not showing year anywhere when plotting <12 months"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-23299",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "[Bug]: get_backend() clears figures from Gcf.figs if they were created under rc_context"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-23314",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "[Bug]: set_visible() not working for 3d projection"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-23412",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "[Bug]: offset dash linestyle has no effect in patch objects"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-23476",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "<15 min fix",
+  "title": "[Bug]: DPI of a figure is doubled after unpickling on M1 Mac"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-24026",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "stackplot should not change Axes cycler"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-24149",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "<15 min fix",
+  "title": "[Bug]: ax.bar raises for all-nan data on matplotlib 3.6.1"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-24177",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "<15 min fix",
+  "title": "[Bug]: ax.hist density not auto-scaled when using histtype='step'"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-24570",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "<15 min fix",
+  "title": "[Bug]: `align` in `HPacker` is reversed"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-24627",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "cla(), clf() should unset the `.axes` and `.figure` attributes of deparented artists"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-24637",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "AnnotationBbox gid not passed to renderer"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-24870",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "[ENH]: Auto-detect bool arrays passed to contour()?"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-24970",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "[Bug]: NumPy 1.24 deprecation warnings"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-25122",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "<15 min fix",
+  "title": "[Bug]: Windows correction is not correct in `mlab._spectral_helper`"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-25287",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "<15 min fix",
+  "title": "[Bug]: offsetText is colored based on tick.color instead of tick.labelcolor"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-25311",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "<15 min fix",
+  "title": "[Bug]: Unable to pickle figure with draggable legend"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-25332",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "<15 min fix",
+  "title": "[Bug]: Unable to pickle figure with aligned labels"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-25479",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "<15 min fix",
+  "title": "Confusing (broken?) colormap name handling"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-25775",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "[ENH]: Add get/set_antialiased to Text objects"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-25960",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "[Bug]: wspace and hspace in subfigures not working"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-26113",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "<15 min fix",
+  "title": "Inconsistent behavior of hexbins mincnt parameter, depending on C parameter"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-26208",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "<15 min fix",
+  "title": "[Bug]: dataLims get replaced by inf for charts with twinx if ax1 is a stackplot"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-26291",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "[Bug]: Error while creating inset axes using `mpl_toolkits.axes_grid1.inset_locator.inset_axes`"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-26342",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "[ENH]: ContourSet.set_paths"
+ },
+ {
+  "instance_id": "matplotlib__matplotlib-26466",
+  "repo": "matplotlib/matplotlib",
+  "difficulty": "15 min - 1 hour",
+  "title": "Updating an array passed as the xy parameter to annotate updates the anottation"
+ },
+ {
+  "instance_id": "mwaskom__seaborn-3069",
+  "repo": "mwaskom/seaborn",
+  "difficulty": "15 min - 1 hour",
+  "title": "Nominal scale should be drawn the same way as categorical scales"
+ },
+ {
+  "instance_id": "mwaskom__seaborn-3187",
+  "repo": "mwaskom/seaborn",
+  "difficulty": "15 min - 1 hour",
+  "title": "Wrong legend values of large ranges"
+ },
+ {
+  "instance_id": "pallets__flask-5014",
+  "repo": "pallets/flask",
+  "difficulty": "<15 min fix",
+  "title": "Require a non-empty name for Blueprints"
+ },
+ {
+  "instance_id": "psf__requests-1142",
+  "repo": "psf/requests",
+  "difficulty": "<15 min fix",
+  "title": "requests.get is ALWAYS sending content length"
+ },
+ {
+  "instance_id": "psf__requests-1724",
+  "repo": "psf/requests",
+  "difficulty": "<15 min fix",
+  "title": "Unicode method names cause UnicodeDecodeError for some requests in Python 2.7.2"
+ },
+ {
+  "instance_id": "psf__requests-1766",
+  "repo": "psf/requests",
+  "difficulty": "<15 min fix",
+  "title": "quote qop options in Digest Auth"
+ },
+ {
+  "instance_id": "psf__requests-1921",
+  "repo": "psf/requests",
+  "difficulty": "<15 min fix",
+  "title": "Removing a default header of a session"
+ },
+ {
+  "instance_id": "psf__requests-2317",
+  "repo": "psf/requests",
+  "difficulty": "<15 min fix",
+  "title": "method = builtin_str(method) problem"
+ },
+ {
+  "instance_id": "psf__requests-2931",
+  "repo": "psf/requests",
+  "difficulty": "15 min - 1 hour",
+  "title": "Request with binary payload fails due to calling to_native_string"
+ },
+ {
+  "instance_id": "psf__requests-5414",
+  "repo": "psf/requests",
+  "difficulty": "<15 min fix",
+  "title": "Getting http://.example.com raises UnicodeError"
+ },
+ {
+  "instance_id": "psf__requests-6028",
+  "repo": "psf/requests",
+  "difficulty": "15 min - 1 hour",
+  "title": "Proxy authentication bug"
+ },
+ {
+  "instance_id": "pydata__xarray-2905",
+  "repo": "pydata/xarray",
+  "difficulty": "15 min - 1 hour",
+  "title": "Variable.__setitem__ coercing types on objects with a values property"
+ },
+ {
+  "instance_id": "pydata__xarray-3095",
+  "repo": "pydata/xarray",
+  "difficulty": "15 min - 1 hour",
+  "title": "REGRESSION: copy(deep=True) casts unicode indices to object"
+ },
+ {
+  "instance_id": "pydata__xarray-3151",
+  "repo": "pydata/xarray",
+  "difficulty": "15 min - 1 hour",
+  "title": "xr.combine_by_coords raises ValueError if identical coordinates are non-monotonic"
+ },
+ {
+  "instance_id": "pydata__xarray-3305",
+  "repo": "pydata/xarray",
+  "difficulty": "15 min - 1 hour",
+  "title": "DataArray.quantile does not honor `keep_attrs`"
+ },
+ {
+  "instance_id": "pydata__xarray-3677",
+  "repo": "pydata/xarray",
+  "difficulty": "15 min - 1 hour",
+  "title": "Merging dataArray into dataset using dataset method fails"
+ },
+ {
+  "instance_id": "pydata__xarray-3993",
+  "repo": "pydata/xarray",
+  "difficulty": "1-4 hours",
+  "title": "DataArray.integrate has a 'dim' arg, but Dataset.integrate has a 'coord' arg"
+ },
+ {
+  "instance_id": "pydata__xarray-4075",
+  "repo": "pydata/xarray",
+  "difficulty": "<15 min fix",
+  "title": "[bug] when passing boolean weights to weighted mean"
+ },
+ {
+  "instance_id": "pydata__xarray-4094",
+  "repo": "pydata/xarray",
+  "difficulty": "<15 min fix",
+  "title": "to_unstacked_dataset broken for single-dim variables"
+ },
+ {
+  "instance_id": "pydata__xarray-4356",
+  "repo": "pydata/xarray",
+  "difficulty": "<15 min fix",
+  "title": "sum: min_count is not available for reduction with more than one dimensions"
+ },
+ {
+  "instance_id": "pydata__xarray-4629",
+  "repo": "pydata/xarray",
+  "difficulty": "<15 min fix",
+  "title": "merge(combine_attrs='override') does not copy attrs but instead references attrs from the first object"
+ },
+ {
+  "instance_id": "pydata__xarray-4687",
+  "repo": "pydata/xarray",
+  "difficulty": "15 min - 1 hour",
+  "title": "xr.where not preserving attributes"
+ },
+ {
+  "instance_id": "pydata__xarray-4695",
+  "repo": "pydata/xarray",
+  "difficulty": "15 min - 1 hour",
+  "title": "Naming a dimension \"method\" throws error when calling \".loc\""
+ },
+ {
+  "instance_id": "pydata__xarray-4966",
+  "repo": "pydata/xarray",
+  "difficulty": "15 min - 1 hour",
+  "title": "Handling of signed bytes from OPeNDAP via pydap"
+ },
+ {
+  "instance_id": "pydata__xarray-6461",
+  "repo": "pydata/xarray",
+  "difficulty": "<15 min fix",
+  "title": "xr.where with scalar as second argument fails with keep_attrs=True"
+ },
+ {
+  "instance_id": "pydata__xarray-6599",
+  "repo": "pydata/xarray",
+  "difficulty": "15 min - 1 hour",
+  "title": "`polyval` with timedelta64 coordinates produces wrong results"
+ },
+ {
+  "instance_id": "pydata__xarray-6721",
+  "repo": "pydata/xarray",
+  "difficulty": "15 min - 1 hour",
+  "title": "Accessing chunks on zarr backed xarray seems to load entire array into memory"
+ },
+ {
+  "instance_id": "pydata__xarray-6744",
+  "repo": "pydata/xarray",
+  "difficulty": "15 min - 1 hour",
+  "title": "\"center\" kwarg ignored when manually iterating over DataArrayRolling"
+ },
+ {
+  "instance_id": "pydata__xarray-6938",
+  "repo": "pydata/xarray",
+  "difficulty": "15 min - 1 hour",
+  "title": "`.swap_dims()` can modify original object"
+ },
+ {
+  "instance_id": "pydata__xarray-6992",
+  "repo": "pydata/xarray",
+  "difficulty": ">4 hours",
+  "title": "index refactor: more `_coord_names` than `_variables` on Dataset"
+ },
+ {
+  "instance_id": "pydata__xarray-7229",
+  "repo": "pydata/xarray",
+  "difficulty": "15 min - 1 hour",
+  "title": "`xr.where(..., keep_attrs=True)` overwrites coordinate attributes"
+ },
+ {
+  "instance_id": "pydata__xarray-7233",
+  "repo": "pydata/xarray",
+  "difficulty": "15 min - 1 hour",
+  "title": "ds.Coarsen.construct demotes non-dimensional coordinates to variables"
+ },
+ {
+  "instance_id": "pydata__xarray-7393",
+  "repo": "pydata/xarray",
+  "difficulty": "15 min - 1 hour",
+  "title": "stack casts int32 dtype coordinate to int64"
+ },
+ {
+  "instance_id": "pylint-dev__pylint-4551",
+  "repo": "pylint-dev/pylint",
+  "difficulty": "1-4 hours",
+  "title": "Use Python type hints for UML generation"
+ },
+ {
+  "instance_id": "pylint-dev__pylint-4604",
+  "repo": "pylint-dev/pylint",
+  "difficulty": "15 min - 1 hour",
+  "title": "unused-import false positive for a module used in a type comment"
+ },
+ {
+  "instance_id": "pylint-dev__pylint-4661",
+  "repo": "pylint-dev/pylint",
+  "difficulty": "15 min - 1 hour",
+  "title": "Make pylint XDG Base Directory Specification compliant"
+ },
+ {
+  "instance_id": "pylint-dev__pylint-4970",
+  "repo": "pylint-dev/pylint",
+  "difficulty": "<15 min fix",
+  "title": "Setting `min-similarity-lines` to `0` should stop pylint from checking duplicate code"
+ },
+ {
+  "instance_id": "pylint-dev__pylint-6386",
+  "repo": "pylint-dev/pylint",
+  "difficulty": "15 min - 1 hour",
+  "title": "Argument expected for short verbose option"
+ },
+ {
+  "instance_id": "pylint-dev__pylint-6528",
+  "repo": "pylint-dev/pylint",
+  "difficulty": "15 min - 1 hour",
+  "title": "Pylint does not respect ignores in `--recursive=y` mode"
+ },
+ {
+  "instance_id": "pylint-dev__pylint-6903",
+  "repo": "pylint-dev/pylint",
+  "difficulty": "<15 min fix",
+  "title": "Running pylint in Kubernetes Pod with --jobs=0 fails"
+ },
+ {
+  "instance_id": "pylint-dev__pylint-7080",
+  "repo": "pylint-dev/pylint",
+  "difficulty": "15 min - 1 hour",
+  "title": "`--recursive=y` ignores `ignore-paths`"
+ },
+ {
+  "instance_id": "pylint-dev__pylint-7277",
+  "repo": "pylint-dev/pylint",
+  "difficulty": "<15 min fix",
+  "title": "`pylint` removes first item from `sys.path` when running from `runpy`."
+ },
+ {
+  "instance_id": "pylint-dev__pylint-8898",
+  "repo": "pylint-dev/pylint",
+  "difficulty": "1-4 hours",
+  "title": "bad-names-rgxs mangles regular expressions with commas"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-10051",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "15 min - 1 hour",
+  "title": "caplog.get_records and caplog.clear conflict"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-10081",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "<15 min fix",
+  "title": "unittest.TestCase.tearDown executed for classes marked with `unittest.skip` when running --pdb"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-10356",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "1-4 hours",
+  "title": "Consider MRO when obtaining marks for classes"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-5262",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "<15 min fix",
+  "title": "_pytest.capture.EncodedFile mode should not include `b` (binary)"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-5631",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "15 min - 1 hour",
+  "title": "ValueError when collecting tests that patch an array"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-5787",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "1-4 hours",
+  "title": "exception serialization should include chained exceptions"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-5809",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "<15 min fix",
+  "title": "Lexer \"python3\" in --pastebin feature causes HTTP errors"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-5840",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "15 min - 1 hour",
+  "title": "5.1.2 ImportError while loading conftest (windows import folder casing issues)"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-6197",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "1-4 hours",
+  "title": "Regression in 5.2.3: pytest tries to collect random __init__.py files"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-6202",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "<15 min fix",
+  "title": "'.['  replaced with '[' in the headline shown of the test report"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-7205",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "<15 min fix",
+  "title": "BytesWarning when using --setup-show with bytes parameter"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-7236",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "15 min - 1 hour",
+  "title": "unittest.TestCase.tearDown executed on skipped tests when running --pdb"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-7324",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "15 min - 1 hour",
+  "title": "Pytest crashes the interpreter on debug build for 3.8+"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-7432",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "<15 min fix",
+  "title": "skipping: --runxfail breaks pytest.mark.skip location reporting"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-7490",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "15 min - 1 hour",
+  "title": "Pytest 6: Dynamically adding xfail marker in test no longer ignores failure"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-7521",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "<15 min fix",
+  "title": "pytest 6.0.0rc1: capfd.readouterr() converts \\r to \\n"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-7571",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "15 min - 1 hour",
+  "title": "caplog fixture doesn't restore log level after test"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-7982",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "<15 min fix",
+  "title": "Symlinked directories not collected since pytest 6.1.0"
+ },
+ {
+  "instance_id": "pytest-dev__pytest-8399",
+  "repo": "pytest-dev/pytest",
+  "difficulty": "15 min - 1 hour",
+  "title": "Starting v6.2.0, unittest setUpClass fixtures are no longer \"private\""
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-10297",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "linear_model.RidgeClassifierCV's Parameter store_cv_values issue"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-10844",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "fowlkes_mallows_score returns RuntimeWarning when variables get too big"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-10908",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "CountVectorizer's get_feature_names raise not NotFittedError when the vocabulary parameter is provided"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-11310",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "<15 min fix",
+  "title": "Retrieving time to refit the estimator in BaseSearchCV"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-11578",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "For probabilistic scorers, LogisticRegressionCV(multi_class='multinomial') uses OvR to calculate scores"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-12585",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "<15 min fix",
+  "title": "clone fails for parameters that are estimator types"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-12682",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "`SparseCoder` doesn't expose `max_iter` for `Lasso`"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-12973",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "LassoLarsIC: unintuitive copy_X behaviour"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-13124",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "sklearn.model_selection.StratifiedKFold either shuffling is wrong or documentation is misleading"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-13135",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "<15 min fix",
+  "title": "KBinsDiscretizer: kmeans fails due to unsorted bin_edges"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-13142",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "<15 min fix",
+  "title": "GaussianMixture predict and fit_predict disagree when n_init>1"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-13328",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "<15 min fix",
+  "title": "TypeError when supplying a boolean X to HuberRegressor fit"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-13439",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "<15 min fix",
+  "title": "Pipeline should implement __len__"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-13496",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "<15 min fix",
+  "title": "Expose warm_start in Isolation forest"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-13779",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "<15 min fix",
+  "title": "Voting estimator will fail at fit if weights are passed and an estimator is None"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-14053",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "IndexError: list index out of range in export_text when the tree only has one feature"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-14087",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "IndexError thrown with LogisticRegressionCV and refit=False"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-14141",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "<15 min fix",
+  "title": "Add joblib in show_versions"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-14496",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "<15 min fix",
+  "title": "[BUG] Optics float min_samples NN instantiation"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-14629",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "AttributeError with cross_val_predict(method='predict_proba') when using MultiOuputClassifier"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-14710",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "HistGradientBoostingClassifier does not work with string target when early stopping turned on"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-14894",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "ZeroDivisionError in _sparse_fit for SVM with empty support_vectors_"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-14983",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "<15 min fix",
+  "title": "RepeatedKFold and RepeatedStratifiedKFold do not show correct __repr__ string"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-15100",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "strip_accents_unicode fails to strip accents from strings that are already in NFKD form"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-25102",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "1-4 hours",
+  "title": "Preserving dtypes for DataFrame output by transformers that do not modify the input values"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-25232",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "<15 min fix",
+  "title": "IterativeImputer has no parameter \"fill_value\""
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-25747",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "FeatureUnion not working when aggregating data and pandas transform output selected"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-25931",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "X does not have valid feature names, but IsolationForest was fitted with feature names"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-25973",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "<15 min fix",
+  "title": "Unable to pass splits to SequentialFeatureSelector"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-26194",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "Thresholds can exceed 1 in `roc_curve` while providing probability estimate"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-26323",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "`ColumnTransformer.set_output` ignores the `remainder` if it's an estimator"
+ },
+ {
+  "instance_id": "scikit-learn__scikit-learn-9288",
+  "repo": "scikit-learn/scikit-learn",
+  "difficulty": "15 min - 1 hour",
+  "title": "KMeans gives slightly different result for n_jobs=1 vs. n_jobs > 1"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-10323",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "Use of literalinclude prepend results in incorrect indent formatting for code eamples"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-10435",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "LaTeX: new Inline code highlighting from #10251 adds whitespace at start and end in pdf output"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-10449",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "`autodoc_typehints = \"description\"` causes autoclass to put a return type"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-10466",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "15 min - 1 hour",
+  "title": "Message.locations duplicate unnecessary"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-10614",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "15 min - 1 hour",
+  "title": "inheritance-diagram 404 links with SVG"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-10673",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "15 min - 1 hour",
+  "title": "toctree contains reference to nonexisting document 'genindex', 'modindex', 'search'"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-11445",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "15 min - 1 hour",
+  "title": "Using rst_prolog removes top level headings containing a domain directive"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-11510",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "1-4 hours",
+  "title": "source-read event does not modify include'd files source"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-7440",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "glossary duplicate term with a different case"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-7454",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "Inconsistent handling of None by `autodoc_typehints`"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-7462",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "`IndexError: pop from empty list` for empty tuple type annotation"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-7590",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": ">4 hours",
+  "title": "C++ User Defined Literals not supported"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-7748",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "15 min - 1 hour",
+  "title": "autodoc_docstring_signature with overloaded methods"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-7757",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "15 min - 1 hour",
+  "title": "The default value for positional only argument has vanished"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-7889",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "Autodoc extension's mock file throws TypeError for generic-typed classes."
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-7910",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "Decorated __init__ doesn't show up in docs"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-7985",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "15 min - 1 hour",
+  "title": "linkcheck could also check local (internal) links"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-8035",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "15 min - 1 hour",
+  "title": "Support defining specific `:private-members:` for autodoc"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-8056",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "15 min - 1 hour",
+  "title": "Render error when combining multiple input parameters in docstring"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-8120",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "15 min - 1 hour",
+  "title": "locale/<language>/LC_MESSAGES/sphinx.po translation ignored"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-8265",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "15 min - 1 hour",
+  "title": "docstring default arg is broken"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-8269",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "Linkcheck should report HTTP errors instead of Anchor not found"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-8459",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "autodoc_type_aliases doesn't work when autodoc_typehints is set to \"description\""
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-8475",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "Extend linkchecker GET fallback logic to handle Too Many Redirects"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-8548",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "1-4 hours",
+  "title": "autodoc inherited-members won't work for inherited attributes (data members)."
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-8551",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "15 min - 1 hour",
+  "title": ":type: and :rtype: gives false ambiguous class lookup warnings"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-8593",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "15 min - 1 hour",
+  "title": "autodoc: `:meta public:` does not effect to variables"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-8595",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "autodoc: empty __all__ attribute is ignored"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-8621",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "kbd role produces incorrect HTML when compound-key separators (-, + or ^) are used as keystrokes"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-8638",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "15 min - 1 hour",
+  "title": "Instance variables link to other variables of the same name in the project"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-8721",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "viewcode creates pages for epub even if `viewcode_enable_epub=False` on `make html epub`"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-9229",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "1-4 hours",
+  "title": "Inconsistent behaviour with type alias documentation (not overwriting all the default messages, just some)"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-9230",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "Doc rendering is incorrect when :param has datatype dict(str,str)"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-9258",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "[RFE] Support union types specification using | (vertical bar/pipe)"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-9281",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "Python Enum values (used to show default values in function signatures) are rendered ugly."
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-9320",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "`sphinx-quickstart` with existing conf.py doesn't exit easily"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-9367",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "1-element tuple rendered incorrectly"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-9461",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "1-4 hours",
+  "title": "Methods decorated with @classmethod and @property do not get documented."
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-9591",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "Cross-references don't work in property's type annotations"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-9602",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "15 min - 1 hour",
+  "title": "Nitpick flags Literal annotation values as missing py:class"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-9658",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "15 min - 1 hour",
+  "title": "Inherited classes not correctly documented when mocked"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-9673",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "15 min - 1 hour",
+  "title": "autodoc_typehints_description_target not working with Napoleon"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-9698",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "An index entry with parens was registered for `py:method` directive with `:property:` option"
+ },
+ {
+  "instance_id": "sphinx-doc__sphinx-9711",
+  "repo": "sphinx-doc/sphinx",
+  "difficulty": "<15 min fix",
+  "title": "needs_extensions checks versions using strings"
+ },
+ {
+  "instance_id": "sympy__sympy-11618",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "distance calculation wrong"
+ },
+ {
+  "instance_id": "sympy__sympy-12096",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "evalf does not call _imp_ recursively"
+ },
+ {
+  "instance_id": "sympy__sympy-12419",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Sum of the elements of an identity matrix is zero"
+ },
+ {
+  "instance_id": "sympy__sympy-12481",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "`Permutation` constructor fails with non-disjoint cycles"
+ },
+ {
+  "instance_id": "sympy__sympy-12489",
+  "repo": "sympy/sympy",
+  "difficulty": "1-4 hours",
+  "title": "combinatorics.Permutation can't be subclassed properly"
+ },
+ {
+  "instance_id": "sympy__sympy-13031",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Behavior of Matrix hstack and vstack changed in sympy 1.1"
+ },
+ {
+  "instance_id": "sympy__sympy-13091",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Return NotImplemented, not False, upon rich comparison with unknown type"
+ },
+ {
+  "instance_id": "sympy__sympy-13372",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "UnboundLocalError in evalf"
+ },
+ {
+  "instance_id": "sympy__sympy-13480",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": ".subs on coth(log(tan(x))) errors for certain integral values"
+ },
+ {
+  "instance_id": "sympy__sympy-13551",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Product(n + 1 / 2**k, [k, 0, n-1]) is incorrect"
+ },
+ {
+  "instance_id": "sympy__sympy-13615",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Complement doesn't work when input is a mixture of Symbols and numbers"
+ },
+ {
+  "instance_id": "sympy__sympy-13647",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Matrix.col_insert() no longer seems to work correctly."
+ },
+ {
+  "instance_id": "sympy__sympy-13757",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Multiplying an expression by a Poly does not evaluate when the expression is on the left side of the multiplication"
+ },
+ {
+  "instance_id": "sympy__sympy-13798",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "latex() and mul_symbol"
+ },
+ {
+  "instance_id": "sympy__sympy-13852",
+  "repo": "sympy/sympy",
+  "difficulty": "1-4 hours",
+  "title": "Add evaluation for polylog"
+ },
+ {
+  "instance_id": "sympy__sympy-13877",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Matrix determinant raises Invalid NaN comparison with particular symbolic entries"
+ },
+ {
+  "instance_id": "sympy__sympy-13878",
+  "repo": "sympy/sympy",
+  "difficulty": ">4 hours",
+  "title": "Precompute the CDF of several distributions where integration doesn't work well"
+ },
+ {
+  "instance_id": "sympy__sympy-13974",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Evaluating powers of `TensorProduct`"
+ },
+ {
+  "instance_id": "sympy__sympy-14248",
+  "repo": "sympy/sympy",
+  "difficulty": "1-4 hours",
+  "title": "The difference of MatrixSymbols prints as a sum with (-1) coefficient"
+ },
+ {
+  "instance_id": "sympy__sympy-14531",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "StrPrinter setting are not respected by certain subexpressions"
+ },
+ {
+  "instance_id": "sympy__sympy-14711",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "vector add 0 error"
+ },
+ {
+  "instance_id": "sympy__sympy-14976",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "lambdify(modules='mpmath') doesn't wrap rationals"
+ },
+ {
+  "instance_id": "sympy__sympy-15017",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "`len` of rank-0 arrays returns 0"
+ },
+ {
+  "instance_id": "sympy__sympy-15345",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "mathematica_code gives wrong output with Max"
+ },
+ {
+  "instance_id": "sympy__sympy-15349",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Incorrect result with Quaterniont.to_rotation_matrix()"
+ },
+ {
+  "instance_id": "sympy__sympy-15599",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Mod(3*i, 2) unchanged"
+ },
+ {
+  "instance_id": "sympy__sympy-15809",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "Zero-argument Min() and Max()"
+ },
+ {
+  "instance_id": "sympy__sympy-15875",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "is_zero is incorrect on complex integer"
+ },
+ {
+  "instance_id": "sympy__sympy-15976",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "A symbol ending with a number is made invisible when printing with MathML"
+ },
+ {
+  "instance_id": "sympy__sympy-16450",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "Posify ignores is_finite assmptions"
+ },
+ {
+  "instance_id": "sympy__sympy-16597",
+  "repo": "sympy/sympy",
+  "difficulty": "1-4 hours",
+  "title": "a.is_even does not imply a.is_finite"
+ },
+ {
+  "instance_id": "sympy__sympy-16766",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "PythonCodePrinter doesn't support Indexed"
+ },
+ {
+  "instance_id": "sympy__sympy-16792",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "autowrap with cython backend fails when array arguments do not appear in wrapped expr"
+ },
+ {
+  "instance_id": "sympy__sympy-16886",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "Morse encoding for \"1\" is not correct"
+ },
+ {
+  "instance_id": "sympy__sympy-17139",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "simplify(cos(x)**I): Invalid comparison of complex I (fu.py)"
+ },
+ {
+  "instance_id": "sympy__sympy-17318",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "sqrtdenest raises IndexError"
+ },
+ {
+  "instance_id": "sympy__sympy-17630",
+  "repo": "sympy/sympy",
+  "difficulty": "1-4 hours",
+  "title": "Exception when multiplying BlockMatrix containing ZeroMatrix blocks"
+ },
+ {
+  "instance_id": "sympy__sympy-17655",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "Unexpected exception when multiplying geometry.Point and number"
+ },
+ {
+  "instance_id": "sympy__sympy-18189",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "diophantine: incomplete results depending on syms order with permute=True"
+ },
+ {
+  "instance_id": "sympy__sympy-18199",
+  "repo": "sympy/sympy",
+  "difficulty": "1-4 hours",
+  "title": "nthroot_mod function misses one root of x = 0 mod p."
+ },
+ {
+  "instance_id": "sympy__sympy-18211",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "`solveset` raises `NotImplementedError` instead of returning `ConditionSet`"
+ },
+ {
+  "instance_id": "sympy__sympy-18698",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "sqf and sqf_list output is not consistant"
+ },
+ {
+  "instance_id": "sympy__sympy-18763",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "Incorrect parenthesizing of Subs"
+ },
+ {
+  "instance_id": "sympy__sympy-19040",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Factor with extension=True drops a factor of y-1"
+ },
+ {
+  "instance_id": "sympy__sympy-19346",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "srepr not printing dict and set properly"
+ },
+ {
+  "instance_id": "sympy__sympy-19495",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "Strange/wrong? behaviour of subs with ConditionSet / ImageSet"
+ },
+ {
+  "instance_id": "sympy__sympy-19637",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "kernS: 'kern' referenced before assignment"
+ },
+ {
+  "instance_id": "sympy__sympy-19783",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Dagger() * IdentityOperator() is not simplified"
+ },
+ {
+  "instance_id": "sympy__sympy-19954",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "sylow_subgroup() IndexError"
+ },
+ {
+  "instance_id": "sympy__sympy-20154",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "partitions() reusing the output dictionaries"
+ },
+ {
+  "instance_id": "sympy__sympy-20428",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Result from clear_denoms() prints like zero poly but behaves wierdly (due to unstripped DMP)"
+ },
+ {
+  "instance_id": "sympy__sympy-20438",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "`is_subset` gives wrong results"
+ },
+ {
+  "instance_id": "sympy__sympy-20590",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Symbol instances have __dict__ since 1.7?"
+ },
+ {
+  "instance_id": "sympy__sympy-20801",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "S(0.0) == S.false returns True"
+ },
+ {
+  "instance_id": "sympy__sympy-20916",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "pprint unicode does not format subscripts on Greek letters"
+ },
+ {
+  "instance_id": "sympy__sympy-21379",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Unexpected `PolynomialError` when using simple `subs()` for particular expressions"
+ },
+ {
+  "instance_id": "sympy__sympy-21596",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "bug in is_subset(Reals)"
+ },
+ {
+  "instance_id": "sympy__sympy-21612",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Latex parsing of fractions yields wrong expression due to missing brackets"
+ },
+ {
+  "instance_id": "sympy__sympy-21847",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "itermonomials returns incorrect monomials when using min_degrees argument"
+ },
+ {
+  "instance_id": "sympy__sympy-21930",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Issues with Latex printing output in second quantization module"
+ },
+ {
+  "instance_id": "sympy__sympy-22080",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Mod function lambdify bug"
+ },
+ {
+  "instance_id": "sympy__sympy-22456",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Argument invariance of codegen.ast String"
+ },
+ {
+  "instance_id": "sympy__sympy-22714",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "simpify gives `Imaginary coordinates are not permitted.` with evaluate(False)"
+ },
+ {
+  "instance_id": "sympy__sympy-22914",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "PythonCodePrinter doesn't support Min and Max"
+ },
+ {
+  "instance_id": "sympy__sympy-23262",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Python code printer not respecting tuple with one element"
+ },
+ {
+  "instance_id": "sympy__sympy-23413",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "bug with HNF removing rows"
+ },
+ {
+  "instance_id": "sympy__sympy-23534",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "Using symbols to create functions doesn't work if there is an extra layer of parentheses"
+ },
+ {
+  "instance_id": "sympy__sympy-23824",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "physics.hep.kahane_simplify() incorrectly reverses order of leading uncontracted gamma matrices"
+ },
+ {
+  "instance_id": "sympy__sympy-23950",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "Contains.as_set returns Contains"
+ },
+ {
+  "instance_id": "sympy__sympy-24066",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "SI._collect_factor_and_dimension() cannot properly detect that exponent is dimensionless"
+ },
+ {
+  "instance_id": "sympy__sympy-24213",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "collect_factor_and_dimension does not detect equivalent dimensions in addition"
+ },
+ {
+  "instance_id": "sympy__sympy-24443",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "`_check_homomorphism` is broken on PermutationGroups"
+ },
+ {
+  "instance_id": "sympy__sympy-24539",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "`PolyElement.as_expr()` not accepting symbols"
+ },
+ {
+  "instance_id": "sympy__sympy-24562",
+  "repo": "sympy/sympy",
+  "difficulty": "<15 min fix",
+  "title": "Rational calc value error"
+ },
+ {
+  "instance_id": "sympy__sympy-24661",
+  "repo": "sympy/sympy",
+  "difficulty": "15 min - 1 hour",
+  "title": "The evaluate=False parameter to `parse_expr` is ignored for relationals"
+ }
+]

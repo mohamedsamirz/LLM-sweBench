@@ -13,3 +13,8 @@ lane-2-gcp-setup/.terraform/
 lane-2-gcp-setup/*.tfstate
 lane-2-gcp-setup/*.tfstate.*
 lane-2-gcp-setup/terraform.tfvars
+
+live-demo/gcp-backend/.terraform/
+live-demo/gcp-backend/*.tfstate
+live-demo/gcp-backend/*.tfstate.*
+live-demo/gcp-backend/terraform.tfvars
