@@ -62,12 +62,12 @@ round each came from, its timeout, and its final outcome.
 | `psf__requests-1921` | 2 | ❌ Unresolved |
 | `scikit-learn__scikit-learn-14141` | 1 | ⏱️ Timeout (900s) |
 | `sympy__sympy-23534` | 1 | ⏱️ Timeout (900s) |
-| `sympy__sympy-15875` | 2 | ⏱️ Timeout (1000s) |
 | `django__django-13406` | 1 | 🌀 Hallucination — model fabricated a fake tool-call transcript instead of editing (see `logs/django__django-13406/reasoning.md`) |
 | `sympy__sympy-13757` | 1 | 🌀 Hallucination — model produced generic chat filler instead of attempting a fix |
 | `sympy__sympy-19040` | 1 | 🌀 Hallucination — model correctly reasoned about the fix in prose but never called `Edit` |
+| `sympy__sympy-15875` | 2 | 🌀 Hallucination — stopped after 294s (not a real timeout — `stats.json` shows `timed_out: false`) and asked the user what to help with, as if starting an interactive chat session (see `logs/sympy__sympy-15875/reasoning.md`) |
 
-**5/15 resolved, 4/15 unresolved, 3/15 timed out, 3/15 hallucinated.**
+**5/15 resolved, 4/15 unresolved, 2/15 timed out, 4/15 hallucinated.**
 
 (Evaluated as two separate harness runs before the merge —
 `../evaluation/eval_reports/colab-qwen3-8b.colab-qwen3-8b-run2.json` for

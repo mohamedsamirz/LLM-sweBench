@@ -72,7 +72,7 @@ chain of thought for that instance.
 
 15 [SWE-bench Verified](https://www.swebench.com/) instances attempted,
 evaluated against the real SWE-bench Docker harness — **5 resolved, 4
-unresolved, 3 timed out, 3 hallucinated** (produced no patch despite not
+unresolved, 2 timed out, 4 hallucinated** (produced no patch despite not
 timing out — see each instance's `reasoning.md` for what actually happened).
 
 | Instance | Round | Outcome |
@@ -88,10 +88,10 @@ timing out — see each instance's `reasoning.md` for what actually happened).
 | `psf__requests-1921` | 2 | ❌ Unresolved |
 | `scikit-learn__scikit-learn-14141` | 1 | ⏱️ Timeout (900s) |
 | `sympy__sympy-23534` | 1 | ⏱️ Timeout (900s) |
-| `sympy__sympy-15875` | 2 | ⏱️ Timeout (1000s) |
 | `django__django-13406` | 1 | 🌀 Hallucination — model fabricated a fake tool-call transcript instead of editing real files |
 | `sympy__sympy-13757` | 1 | 🌀 Hallucination — model produced generic chat filler instead of attempting a fix |
 | `sympy__sympy-19040` | 1 | 🌀 Hallucination — model correctly reasoned about the fix in prose but never called `Edit` |
+| `sympy__sympy-15875` | 2 | 🌀 Hallucination — stopped after 294s (not a real timeout) and asked the user what to help with, as if starting an interactive chat session |
 
 Full manifest: `lane-3-colab-gpu/swebench_selected_instances_colab.json`.
 Full reasoning traces: `lane-3-colab-gpu/logs/<instance_id>/reasoning.md`.

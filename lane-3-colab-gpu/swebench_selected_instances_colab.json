@@ -126,8 +126,8 @@
       "timeout_seconds": 1000,
       "model_name_or_path": "colab-qwen3-8b-batch2",
       "patch_chars": 0,
-      "outcome": "timeout",
-      "note": "genuine 1000s timeout"
+      "outcome": "hallucination",
+      "note": "not a real timeout (stats.json: 294.1s elapsed, timed_out: false) - model addressed the user as if starting an interactive chat session (\"What would you like me to help with?\") instead of continuing the fix; corrected from an earlier mislabel as timeout"
     },
     {
       "instance_id": "django__django-16333",
