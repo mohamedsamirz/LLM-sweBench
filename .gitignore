@@ -13,3 +13,10 @@ lane-2-gcp-setup/.terraform/
 lane-2-gcp-setup/*.tfstate
 lane-2-gcp-setup/*.tfstate.*
 lane-2-gcp-setup/terraform.tfvars
+
+# Live-demo eval runs (section 12/13 of the Colab notebook, evaluation/eval_one.sh) -
+# throwaway artifacts from re-evaluating a single instance at the repo root,
+# not part of the tracked historical results in lane-3-colab-gpu/.
+/predictions_live.jsonl
+/*.live-demo.json
+/logs/
