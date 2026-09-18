@@ -7,8 +7,8 @@
     "total_instances": 15,
     "resolved": 5,
     "unresolved": 4,
-    "timeout": 3,
-    "hallucination": 3
+    "timeout": 2,
+    "hallucination": 4
   },
   "instances": [
     {
