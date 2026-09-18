@@ -6,10 +6,12 @@
 # Usage: ./evaluation/eval_one.sh <instance_id>
 # e.g.:  ./evaluation/eval_one.sh sympy__sympy-23950
 #
-# --cache_level instance keeps the built image after the run (SWE-bench's
-# default may not), so a second run of the SAME instance skips the ~4.35GB
-# pull/build entirely — run this once tonight to warm the cache, then again
-# live tomorrow for a fast, guaranteed-no-download re-run.
+# No --cache_level flag: this installed swebench version doesn't have one
+# (confirmed - passing it errors with "unrecognized arguments"). Image reuse
+# happens automatically via Docker's own layer cache — if the instance's
+# image already exists locally (check `docker images`), the harness skips
+# straight to applying the patch + running tests, no flag needed. Verified:
+# a cached instance evaluates in ~20s instead of a multi-minute image pull.
 set -e
 
 INSTANCE_ID="$1"
@@ -32,12 +34,11 @@ fi
 
 echo "$MATCH" > "$TMP_PRED"
 echo "Extracted existing patch for $INSTANCE_ID -> $TMP_PRED"
-echo "Running evaluation (cache preserved across runs)..."
+echo "Running evaluation (image reused automatically if already cached)..."
 
 "$REPO_ROOT/.venv-eval/bin/python" -m swebench.harness.run_evaluation \
   --dataset_name SWE-bench/SWE-bench_Verified \
   --split test \
   --predictions_path "$TMP_PRED" \
   --max_workers 1 \
-  --cache_level instance \
   --run_id "live-demo-${INSTANCE_ID//\//__}"
